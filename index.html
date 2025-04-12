@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Online</title>
+    <link rel="stylesheet" href="src/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Aqueça sua Voz ao Acordar</h1>
+                    <p>Aprenda exercícios simples e eficazes para despertar sua voz com saúde, leveza e mais confiança.</p>
+                    <a href="#course-list" class="button">
+                        Comece Agora
+                    </a>
+                </div>
+                
+                <div class="hero-image">
+                    <img src="src/img/estudio.jpg" alt="Aprendizado Online">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i data-feather="music"></i>
+                    </div>
+                    <h3>Aqueça sua Voz com Segurança</h3>
+                    <p>Exercícios pensados para preparar sua voz com suavidade e eficiência.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i data-feather="coffee"></i>
+                    </div>
+                    <h3>Rotina Leve e Prática</h3>
+                    <p>Ideal para incluir no seu despertar diário, em poucos minutos.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i data-feather="smile"></i>
+                    </div>
+                    <h3>Bem-estar Vocal</h3>
+                    <p>Melhore sua dicção, respiração e conforto ao falar ou cantar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Course List -->
+    <section id="course-list" class="course-list">
+        <div class="container">
+            <h2>Conteúdo do Curso</h2>
+            <div class="course-grid">
+                <!-- Os módulos serão inseridos via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Instructor -->
+    <section class="instructor">
+        <div class="container">
+            <div class="instructor-card">
+                <div class="instructor-image">
+                    <img src="src/img/foto-eliane.jpg" alt="Instrutora Eliane Pereira">
+                </div>
+                <div class="instructor-content">
+                    <div class="instructor-header">
+                        <h3>Professora Eliane Pereira</h3>
+                        <div class="rating">
+                            <i data-feather="star" class="star-filled"></i>
+                            <i data-feather="star" class="star-filled"></i>
+                            <i data-feather="star" class="star-filled"></i>
+                            <i data-feather="star" class="star-filled"></i>
+                            <i data-feather="star" class="star-filled"></i>
+                        </div>
+                    </div>
+                    <p>Olá, sou Eliane Pereira, cantora lírica, gestora do Estúdio Eliane Pereira e graduanda em Psicopedagogia.</p>
+    
+                    <p>Além de viver da música,  também realizo sonhos através do seu estúdio de canto, que irá completar 3 anos. 
+                        Minha missão é compartilhar sua paixão e ajudar outras pessoas a descobrirem o poder da própria voz.</p>
+                    
+                    <div class="instructor-stats">
+                        <div class="stat">
+                            <div class="stat-value">7+</div>
+                            <div class="stat-label">Anos no Palco</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-value">+100</div>
+                            <div class="stat-label">Vozes Acolhidas</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-value">5.0</div>
+                            <div class="stat-label">Avaliação Média</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- CTA -->
+    <section class="cta">
+        <div class="container">
+            <h2>Vamos Despertar Sua Voz?</h2>
+            <p>Prepare-se para dias mais leves, com mais presença e expressão. Comece agora sua rotina vocal!</p>
+            <a href="#course-list" class="button button-light">
+                Quero Despertar Minha Voz
+            </a>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-contact">
+                    <h3>Entre em Contato</h3>
+                    <div class="contact-item">
+                        <i data-feather="mail"></i>
+                        <span>elianepereirasoprano@gmail.com</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/estudioelianepereira/" class="social-link">
+                            <i data-feather="instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/eliane.pereira.7773631/" class="social-link">
+                            <i data-feather="facebook"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-legal">
+                    <p>© 2024 Luminis. Todos os direitos reservados.</p>
+                    <div class="legal-links">
+                        <a href="#">Política de Privacidade</a>
+                        <span>·</span>
+                        <a href="#">Termos de Uso</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal do Vídeo -->
+    <div id="video-modal" class="modal">
+        <div class="modal-content">
+          <span class="close-button">&times;</span>
+          <h2 id="modal-title"></h2>
+          <iframe id="video-frame" width="100%" height="315" frameborder="0" allowfullscreen></iframe>
+          <p id="description" class="modal-description"></p>
+        </div>
+      </div>
+      
+
+    <script src="src/script.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
