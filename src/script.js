@@ -3,57 +3,57 @@ const courseModules = [
         id: 1,
         title: "Boas-vindas aos Exercícios Vocais Matinais",
         description: "Comece o seu dia despertando sua voz de forma leve, saudável e divertida! Esses exercícios foram pensados para ativar sua musculatura vocal, melhorar a respiração e preparar você para falar ou cantar com mais liberdade e segurança. Vamos juntos nessa jornada sonora?",
-        youtube_id: "Tp9qd8yu6fI",
-        thumbnail: "https://img.youtube.com/vi/Tp9qd8yu6fI/hqdefault.jpg"
+        youtube_id: "MYEBwSBSoyw",
+        thumbnail: "https://youtu.be/MYEBwSBSoyw"
     },
     {
         id: 2,
         title: "Exercício: Vibração labial ou nasal",
         description: "Feche os lábios levemente e emita o som de 'mmm' ou 'nnn'. Comece num tom confortável e depois deslize para notas mais altas e baixas. Benefício: Aquece suavemente as pregas vocais sem forçar.",
-        youtube_id: "nWOcXP4NLP8",
-        thumbnail: "https://img.youtube.com/vi/nWOcXP4NLP8/hqdefault.jpg"
+        youtube_id: "zB9hUBelQdA",
+        thumbnail: "https://youtu.be/zB9hUBelQdA"
     },
     {
         id: 3,
         title: "Exercício: Faça o som de 'v' ou 'z'",
         description: "Emita som contínuo de 'vvvv' ou 'zzz' com pouca intensidade. Faça por cerca de 30 segundos. Benefício: Estimula a ressonância e ativa a musculatura sem esforço excessivo.",
-        youtube_id: "8VYpvPQSq9U",
-        thumbnail: "https://img.youtube.com/vi/8VYpvPQSq9U/hqdefault.jpg"
+        youtube_id: "mXJOlgCQnAY",
+        thumbnail: "https://youtu.be/mXJOlgCQnAY"
     },
     {
         id: 4,
         title: "Exercício: Sirene Vocal",
-        description: "Com som de 'ng' (como em 'imagem'), deslize do tom mais grave ao mais agudo e volte, como uma sirene de ambulância. Benefício: Melhora a flexibilidade vocal e ativa toda a extensão da voz.",
-        youtube_id: "9DwGAal3u_Y",
-        thumbnail: "https://img.youtube.com/vi/9DwGAal3u_Y/hqdefault.jpg"
+        description: "Com som de 'ng' (como em 'MANGA'), deslize do tom mais grave ao mais agudo e volte, como uma sirene de ambulância. Benefício: Melhora a flexibilidade vocal e ativa toda a extensão da voz.",
+        youtube_id: "aIRiX71Y0lA",
+        thumbnail: "https://youtu.be/aIRiX71Y0lA"
     },
     {
         id: 5,
-        title: "Exercício: Vogais graves e vogais livres",
+        title: "Exercício: Suspiros sonoros e vogais suaves",
         description: "Solte um suspiro sonoro, como um 'ahhh' relaxado. Depois, faça vogais livres ('ok', 'éhh') em tons médios e baixos. Benefício: Relaxa a laringe e evita perdas desnecessárias.",
-        youtube_id: "R0ywJjOG-Zc",
-        thumbnail: "https://img.youtube.com/vi/R0ywJjOG-Zc/hqdefault.jpg"
+        youtube_id: "bE_xy-F6NDA",
+        thumbnail: "https://youtu.be/bE_xy-F6NDA"
     },
     {
         id: 6,
-        title: "Exercício: Sons fricativos com 'F' e 'S'",
-        description: "Solte um 'fff' ou 'ss ss ss' antes de iniciar qualquer frase cantada ou falada. Benefício: Ajuda a controlar o fluxo de ar e melhora a resistência vocal.",
-        youtube_id: "rWjmAoIlSQo",
-        thumbnail: "https://img.youtube.com/vi/rWjmAoIlSQo/hqdefault.jpg"
+        title: "Exercício: Mastigação sonora",
+        description: "Altere entre tons médios. Simule o movimento de mastigar e emita o som de 'm' de forma relaxada. Alterne entre tons médios e graves, mantendo a mandíbula solta. Benefício: Melhora a flexibilidade da articulação temporomandibular e a ressonância.",
+        youtube_id: "vAQ5jrQhDxE",
+        thumbnail: "https://youtu.be/vAQ5jrQhDxE"
     },
     {
         id: 7,
-        title: "Exercício: Sons trilhados com a língua",
-        description: "Faça pequenos deslizes inquietos e emita um som contínuo como 'brrr'. Benefício: Reduz a tensão e melhora o controle da respiração.",
-        youtube_id: "xDvbOWw0YUo",
-        thumbnail: "https://img.youtube.com/vi/xDvbOWw0YUo/hqdefault.jpg"
+        title: "Exercício: Sons fricativos com 'F' e 'S'",
+        description: "Solte um 'fff' ou 'sss' antes de iniciar qualquer frase cantada ou falada, isso ajuda a ativar o apoio antes de usar a voz com mais intensidade. Benefício: Ajuda a controlar o fluxo de ar e melhora a resistência vocal.",
+        youtube_id: "nkKTPhTgPRA",
+        thumbnail: "https://youtu.be/nkKTPhTgPRA"
     },
     {
         id: 8,
-        title: "Exercício: Mastigação sonora",
-        description: "Simule o movimento de mastigar e emita o som de 'm' de forma relaxada. Alterne entre tons médios e graves, mantendo a mandíbula solta. Benefício: Melhora a flexibilidade da articulação e a ressonância.",
-        youtube_id: "F7HMkgalwPg",
-        thumbnail: "https://img.youtube.com/vi/F7HMkgalwPg/hqdefault.jpg"
+        title: "Exercício: Vogais Encadeadas",
+        description: "Emita Sons suaves conectando as vogais 'a,e,i,o,u', de forma fluida e relaxada. Comece com um tom confortável e vá explorar levemente diferentes alturas. Benefício: melhora a dicção e prepra a voz para falar e cantar",
+        youtube_id: "v9N-gxjETXs",
+        thumbnail: "https://youtu.be/v9N-gxjETXs"
     }
 ];
 
